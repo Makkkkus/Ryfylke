@@ -29,35 +29,11 @@ country_event = {
 		trigger = {
 			has_government = FROM
 		}
-		if = {
-			limit = {
-				FROM = {
-					tag = ENG
-					has_completed_focus = uk_china_focus
-				}
-				tag = event_target:WTT_current_china_leader
-			}
-			effect_tooltip = {
-				add_offsite_building = { type = arms_factory level = 2 }
-			}
-		}
 	}
 	option = {
 		name = generic.1.b
 		trigger = {
 			NOT = { has_government = FROM }
-		}
-		if = {
-			limit = {
-				FROM = {
-					tag = ENG
-					has_completed_focus = uk_china_focus
-				}
-				tag = event_target:WTT_current_china_leader
-			}
-			effect_tooltip = {
-				add_offsite_building = { type = arms_factory level = 2 }
-			}
 		}
 	}
 }
@@ -588,29 +564,16 @@ country_event = {
 			set_country_flag = alliance_applicant@ROOT
 			FROM = { set_country_flag = alliance_inviter@ROOT }
 			news_event = { id = news.289 hours = 12 }
-			if = {
-				limit = {
-					FROM = {
-						original_tag = GER
-						has_government = democratic
-						has_completed_focus = GER_pool_technical_know_how
-					}
-					NOT = { has_idea = GER_pool_technical_know_how }
-				}
-				add_ideas = GER_pool_technical_know_how
-			}
 		}
 	}
 	option = { #Agree / Both Fascist
 		name = generic.5.b
 		trigger = {
 			is_in_faction = no
-			AND = {
-				FROM = {
-					has_government = fascism
-				}
+			FROM = {
 				has_government = fascism
 			}
+			has_government = fascism
 		}
 		ai_chance = {
 			base = 100
@@ -713,13 +676,6 @@ country_event = {
 			add_to_faction = ROOT
 			country_event = { id = generic.6 hours = 6 }
 		}
-		if = {
-			limit = {
-				is_literally_china = yes
-				has_DLC = "Waking the Tiger"
-			}
-			CHI_set_ally_strat_on_current_leader = yes #sets ally strategy to current Chinese leader
-		}
 		add_ai_strategy = {
 			type = alliance
 			id = FROM
@@ -729,17 +685,6 @@ country_event = {
 			set_country_flag = alliance_applicant@ROOT
 			FROM = { set_country_flag = alliance_inviter@ROOT }
 			news_event = { id = news.289 hours = 12 }
-			if = {
-				limit = {
-					FROM = {
-						original_tag = GER
-						has_government = democratic
-						has_completed_focus = GER_pool_technical_know_how
-					}
-					NOT = { has_idea = GER_pool_technical_know_how }
-				}
-				add_ideas = GER_pool_technical_know_how
-			}
 		}
 	}
 	
@@ -750,15 +695,6 @@ country_event = {
 		}
 		ai_chance = {
 			factor = 50
-			
-			modifier = {
-				factor = 0
-				FROM = {
-					original_tag = YUG
-					has_government = communism
-				}
-				has_government = communism
-			}
 			
 			modifier = {
 				factor = 0.5

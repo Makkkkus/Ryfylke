@@ -58,32 +58,6 @@ country_event = {
 	}
 }
 
-# Test Event 3
-country_event = {
-	id = test.3
-	title = test.3.t
-	desc = test.3.d
-	
-	is_triggered_only = yes
-
-	immediate = {
-		add_autonomy_score = {
-			value = 10
-			localization = "TEST_EVENT_3_IMMEDIATE: $VAL|+=2$"
-		}
-	}
-	
-	option = {
-		name = test.3.a
-		RAJ = {
-			add_autonomy_score = {
-				value = 5
-				localization = "TEST_EVENT_3_OPTION: $VAL|+=2$"
-			}
-		}
-	}
-}
-
 country_event = {
 	id = generic.1011
 	title = generic.1011.t
