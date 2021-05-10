@@ -11,7 +11,7 @@
 10;108;20;232;sea;true;ocean;1
 11;57;15;236;sea;true;ocean;1
 12;87;12;240;sea;true;ocean;1
-13;16;17;248;sea;true;ocean;1
+13;24;49;202;sea;true;ocean;1
 14;7;17;232;sea;true;ocean;1
 15;105;23;236;sea;true;ocean;1
 16;114;21;244;sea;true;ocean;1
@@ -27,7 +27,7 @@
 26;16;30;203;sea;true;ocean;1
 27;2;58;208;sea;true;ocean;1
 28;2;11;181;sea;true;ocean;1
-29;19;21;139;sea;true;ocean;1
+29;19;22;139;sea;true;ocean;1
 30;1;1;191;sea;true;ocean;1
 31;16;30;219;sea;true;ocean;1
 32;5;46;197;sea;true;ocean;1
@@ -57,7 +57,5 @@
 56;68;24;208;sea;true;ocean;1
 57;27;35;230;sea;true;ocean;1
 #58;x;x;x;sea;true;ocean;1
-#59;x;x;x;sea;true;ocean;1
-#60;x;x;x;sea;true;ocean;1
 
 #xx;136;195;9;land;true;plains;1# LAND PROVINCE
