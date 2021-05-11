@@ -22,8 +22,6 @@ fascist_peace = {
 				}
 			}
 		}
-		#These guys have their own special peace conference AI
-		#NOT = { tag = GER }
 	}
 
 	annex_randomness = 0 #400

@@ -547,11 +547,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				tag = ENG
-				has_war = no
-				factor = 0
-			}
 		}
 
 		remove_effect = {
@@ -671,12 +666,6 @@ prospect_for_resources = {
 	develop_sirte_oil_fields = { #662
 		
 		icon = oil
-		
-		allowed = {
-			NOT = {
-				tag = ITA
-			}
-		}
 
 		available = {
 			has_tech = excavation3
@@ -727,12 +716,6 @@ prospect_for_resources = {
 	develop_benghazi_oil_fields = { #450
 		
 		icon = oil
-
-		allowed = {
-			NOT = {
-				tag = ITA
-			}
-		}
 
 		available = {
 			has_tech = excavation4
@@ -1095,12 +1078,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				tag = ENG
-				has_war = no
-				336 = { CONTROLLER = { is_in_faction_with = ROOT } }
-				factor = 0
-			}
 		}
 
 		remove_effect = {
@@ -1377,12 +1354,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				tag = ENG
-				has_war = no
-				date < 1938.1.1
-				factor = 0
-			}
 		}
 
 		remove_effect = {
@@ -2675,11 +2646,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				tag = ENG
-				has_war = no
-				factor = 0
-			}
 		}
 
 		remove_effect = {
@@ -2871,12 +2837,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 0
-				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
-			}
 		}
 
 		remove_effect = {
@@ -2929,12 +2889,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 0
-				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
-			}
 		}
 
 		remove_effect = {
@@ -2988,12 +2942,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 0
-				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
-			}
 		}
 
 		remove_effect = {
@@ -3047,12 +2995,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 0
-				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
-			}
 		}
 
 		remove_effect = {
@@ -3110,12 +3052,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 0
-				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
-			}
 		}
 
 		remove_effect = {
@@ -3186,12 +3122,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 0
-				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
-			}
 		}
 
 		remove_effect = {
@@ -3245,12 +3175,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 0
-				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
-			}
 		}
 
 		remove_effect = {
@@ -3304,12 +3228,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 0
-				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
-			}
 		}
 
 		remove_effect = {
@@ -3395,12 +3313,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 0
-				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
-			}
 		}
 
 		remove_effect = {
@@ -3486,12 +3398,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 0
-				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
-			}
 		}
 
 		remove_effect = {
@@ -3573,12 +3479,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 0
-				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
-			}
 		}
 
 		remove_effect = {
@@ -3664,12 +3564,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 0
-				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
-			}
 		}
 
 		remove_effect = {
@@ -3755,12 +3649,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 0
-				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
-			}
 		}
 
 		remove_effect = {
@@ -3841,12 +3729,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 0
-				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
-			}
 		}
 
 		remove_effect = {
@@ -3900,12 +3782,6 @@ prospect_for_resources = {
 
 		ai_will_do = {
 			factor = 1
-
-			modifier = {
-				factor = 0
-				original_tag = SOV
-				SOV_save_pp_for_manpower_trouble = yes
-			}
 		}
 
 		remove_effect = {
