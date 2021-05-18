@@ -1,0 +1,15 @@
+state={
+	id=6
+	name="STATE_6"
+	state_category = large_town
+	manpower=0
+	buildings_max_level_factor=1.000
+
+	provinces={
+		1525 1526 1527 1737 1741 2000 2001 2006 2009 2011 2019 2021 2024 2029 2034 2038 2048 
+	}
+
+	history = {
+		owner = SAN
+	}
+}

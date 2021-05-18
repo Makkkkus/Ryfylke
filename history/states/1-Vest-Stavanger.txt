@@ -1,0 +1,22 @@
+state={
+	id=1
+	name="STATE_1"
+	state_category = city
+	manpower=25000
+	buildings_max_level_factor=1.000
+
+	provinces={
+		325 344 345 346 347 348 349 350 351 352 353 354 355 356 357 358 508 509 510 511 512 515 516 517 858 864 869 870 
+	}
+	history = {
+		owner = STA
+
+		victory_points = {
+			325 20
+		}
+
+		buildings = {
+			industrial_complex = 1
+		}
+	}
+}

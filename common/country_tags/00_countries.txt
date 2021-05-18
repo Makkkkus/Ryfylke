@@ -1,0 +1,2 @@
+STA = "countries/Stavanger.txt"
+SAN = "Countries/Sandnes.txt"

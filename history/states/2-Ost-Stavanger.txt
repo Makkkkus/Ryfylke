@@ -1,0 +1,19 @@
+state={
+	id=2
+	name="STATE_2"
+	state_category = rural
+	manpower=25000
+	buildings_max_level_factor=1.000
+
+	provinces={
+		341 342 343 359 360 361 362 363 364 849 850 859 861 862 863 871 874 875 878 880 885 886 887 891 892 
+	}
+
+	history = {
+		owner = STA
+
+		buildings = {
+			industrial_complex = 1
+		}
+	}
+}

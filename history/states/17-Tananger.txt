@@ -1,0 +1,15 @@
+state={
+	id=17
+	name="STATE_17"
+	state_category = rural
+	manpower=0
+	buildings_max_level_factor=1.000
+
+	provinces={
+		425 426 427 428 429 430 432 434 435 436 437 438 439 440 441 442 443 444 445 446 447 448 449 450 451 452 453 454 455 456 457 459 460 462 463 465 466 504 505 506 507 720 721 776 777 
+	}
+
+	history = {
+		owner = STA
+	}
+}
