@@ -1,9 +1,17 @@
+
 state={
 	id=19
 	name="STATE_19"
-	provinces={
-		991 998 1003 1005 1010 1013 1016 1017 1020 1023 1030 1032 1036 1038 1044 1047 1053 
+
+	history={
+		owner = SAN
+
 	}
-	manpower=0
+
+	provinces={
+		991 998 1003 1005 1010 1013 1016 1017 1020 1023 1030 1032 1036 1038 1042 1044 1047 1053 1057 1065 2298 2299 
+	}
+	manpower=500
 	buildings_max_level_factor=1.000
+	state_category=town
 }

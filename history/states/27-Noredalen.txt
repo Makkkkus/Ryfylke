@@ -4,6 +4,12 @@ state={
 	provinces={
 		800 1970 1977 1980 1982 1987 1989 1991 1994 1996 1997 1999 
 	}
-	manpower=0
+
+	history = {
+		owner = SAN
+	}
+
+	state_category = rural
+	manpower=500
 	buildings_max_level_factor=1.000
 }

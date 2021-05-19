@@ -4,6 +4,12 @@ state={
 	provinces={
 		1742 1743 1744 1745 1746 1747 2044 2060 2061 2076 2083 2095 2107 2117 
 	}
-	manpower=0
+
+	history = {
+		owner = SAN
+	}
+
+	state_category = town
+	manpower=250
 	buildings_max_level_factor=1.000
 }

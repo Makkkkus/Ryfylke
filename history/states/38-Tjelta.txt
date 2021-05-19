@@ -1,0 +1,17 @@
+
+state={
+	id=38
+	name="STATE_38"
+
+	history={
+		owner = SAN
+
+	}
+
+	provinces={
+		1249 1253 1255 1256 1258 1260 1262 1265 1267 1269 1270 1271 1274 1277 1283 1284 1287 1288 1293 1294 1301 1304 1306 1307 1316 1319 1320 1322 1323 1340 1341 1342 1343 2301 
+	}
+	manpower=500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

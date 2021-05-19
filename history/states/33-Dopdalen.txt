@@ -1,0 +1,16 @@
+state={
+	id=33
+	name="STATE_33"
+	
+	history = {
+		owner = STA
+	}
+
+	provinces={
+		346 347 348 349 858 
+	}
+
+	state_category = town
+	manpower=200
+	buildings_max_level_factor=1.000
+}

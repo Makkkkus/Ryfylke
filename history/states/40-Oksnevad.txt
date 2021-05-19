@@ -1,0 +1,15 @@
+state={
+	id=40
+	name="STATE_40"
+	provinces={
+		1160 1170 1174 1189 1191 1193 1194 1201 1207 1208 1210 1215 1216 1222 1224 1228 1229 1233 1238 1242 1243 1244 1247 1248 
+	}
+
+	history = {
+		owner = SAN
+	}
+
+	state_category = rural
+	manpower=500
+	buildings_max_level_factor=1.000
+}

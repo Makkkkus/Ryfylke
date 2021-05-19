@@ -15,3 +15,11 @@ set_popularities = {
 	fascism = 0
 	communism = 0
 }
+
+create_country_leader = {
+	name = "Mister Man"
+	desc = "POLITICS_MISTER_MAN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+}

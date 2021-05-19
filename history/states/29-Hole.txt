@@ -4,6 +4,12 @@ state={
 	provinces={
 		798 799 802 821 912 2051 2057 2058 2063 2065 2068 2069 2071 2073 2078 2085 2086 2087 2093 2101 2102 2103 
 	}
-	manpower=0
+
+	history = {
+		owner = SAN
+	}
+
+	state_category = rural
+	manpower=500
 	buildings_max_level_factor=1.000
 }
