@@ -1,15 +1,17 @@
+
 state={
 	id=5
 	name="STATE_5"
-	state_category = city
-	manpower=25000
-	buildings_max_level_factor=1.000
+
+	history={
+		owner = SAN
+
+	}
 
 	provinces={
-		307 308 1360 1733 1736 
+		307 308 1733 1736 
 	}
-	
-	history = {
-		owner = SAN
-	}
+	manpower=25000
+	buildings_max_level_factor=1.000
+	state_category=city
 }

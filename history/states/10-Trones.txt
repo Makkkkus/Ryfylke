@@ -1,15 +1,17 @@
+
 state={
 	id=10
 	name="STATE_10"
-	state_category = town
-	manpower=5000
-	buildings_max_level_factor=1.000
+
+	history={
+		owner = SAN
+
+	}
 
 	provinces={
-		1355 1357 1373 1374 1380 1383 1391 1395 1401 1404 
+		1357 1373 1374 1380 1383 1391 1395 1401 1404 
 	}
-
-	history = {
-		owner = SAN
-	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=town
 }
