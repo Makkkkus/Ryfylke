@@ -149,112 +149,6 @@ ai_land_doctrine_tier_2_trigger = {
 	}
 }
 
-CHI_is_on_historical_plan_trigger = {
-	has_dlc = "Waking the Tiger"
-	OR = {
-		AND = {
-			is_historical_focus_on = yes
-			has_game_rule = {
-				rule = CHI_ai_behavior
-				option = DEFAULT
-			}	
-		}
-		has_country_flag = CHI_AI_RANDOM_HISTORICAL
-		has_game_rule = {
-			rule = CHI_ai_behavior
-			option = HISTORICAL
-		}
-	}
-}
-SOV_is_on_historical_plan_trigger = {
-	OR = {
-		AND = {
-			is_historical_focus_on = yes
-			has_game_rule = {
-				rule = SOV_ai_behavior
-				option = DEFAULT
-			}
-		}
-		has_country_flag = SOV_AI_RANDOM_COMMUNIST_HISTORICAL
-		has_game_rule = {
-			rule = SOV_ai_behavior
-			option = HISTORICAL
-		}
-	}
-}
-USA_is_on_historical_plan_trigger = {
-	OR = {
-		AND = {
-			is_historical_focus_on = yes
-			has_game_rule = {
-				rule = USA_ai_behavior
-				option = DEFAULT
-			}
-		}
-		has_country_flag = USA_AI_DEMOCRATIC_HISTORICAL
-		has_game_rule = {
-			rule = USA_ai_behavior
-			option = DEMOCRATIC_HISTORICAL
-		}
-	}
-}
-ROM_is_on_historical_plan_trigger = {
-	has_dlc = "Death or Dishonor"
-	OR = {
-		AND = {
-			is_historical_focus_on = yes
-			has_game_rule = {
-				rule = ROM_ai_behavior
-				option = DEFAULT
-			}
-		}
-		has_country_flag = ROM_AI_RANDOM_FASCIST_HISTORICAL
-		has_game_rule = {
-			rule = ROM_ai_behavior
-			option = FASCIST_HISTORICAL
-		}
-	}
-}
-HUN_is_on_historical_plan_trigger = {
-	has_dlc = "Death or Dishonor"
-	OR = {
-		AND = {
-			is_historical_focus_on = yes
-			has_game_rule = {
-				rule = HUN_ai_behavior
-				option = DEFAULT
-			}
-		}
-		has_country_flag = HUN_AI_RANDOM_FASCIST_HISTORICAL
-		has_game_rule = {
-			rule = HUN_ai_behavior
-			option = FASCIST_HISTORICAL
-		}
-	}
-}
-ENG_is_on_historical_plan_trigger = {
-	OR = {
-		AND = {
-			is_historical_focus_on = yes
-			has_game_rule = {
-				rule = ENG_ai_behavior
-				option = DEFAULT
-			}
-		}
-		has_country_flag = ENG_AI_DEMOCRATIC_HISTORICAL
-		has_game_rule = {
-			rule = eng_ai_behavior
-			option = DEMOCRATIC_HISTORICAL
-		}
-	}
-}
-
-SOV_save_pp_for_manpower_trouble = {
-	has_manpower < 1000000
-	has_political_power < 200
-	surrender_progress > 0	
-}
-
 anti_submarine_strategy_required_trigger = {
 	has_war = yes
 	any_enemy_country = {
@@ -264,10 +158,6 @@ anti_submarine_strategy_required_trigger = {
 		}
 	}
 	convoy_threat > 0.3
-}
-
-should_USA_invade_europe_or_africa = {
-	surrender_progress < 0.05
 }
 
 enemy_has_equal_or_better_radar_tech_trigger = {
@@ -373,15 +263,5 @@ has_large_ally_not_pick_closed_economy = {
 		
 		NOT = { tag = PREV }
 		num_of_military_factories > 30
-	}
-}
-
-has_any_byz_cosmetic_tag = {
-	OR = {
-		has_cosmetic_tag = BYZ_UNIFIED
-		has_cosmetic_tag = BYZ_UNIFIED_communism
-		has_cosmetic_tag = BYZ_UNIFIED_democratic
-		has_cosmetic_tag = BYZ_UNIFIED_fascism
-		has_cosmetic_tag = BYZ_UNIFIED_neutrality
 	}
 }
