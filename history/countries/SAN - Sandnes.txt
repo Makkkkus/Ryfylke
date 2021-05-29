@@ -2,6 +2,8 @@ capital = 5
 
 set_research_slots = 2
 set_convoys = 5
+set_stability = 0.7
+set_war_support = 0.5
 
 set_politics = {
 	ruling_party = democratic

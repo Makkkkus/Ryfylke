@@ -5,6 +5,7 @@ bookmarks = {
 		date = 1939.8.14.12
 		picture = "GFX_select_date_1939"
 		default_country = "STA"
+		default = no
 
 		"STA"={
 			history = "STA_BLITZKRIEG_DESC"
@@ -59,7 +60,7 @@ bookmarks = {
 
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
-			#123 = { rain_light = yes }
+			#1 = { rain_light = yes }
 		}
 	}
 }

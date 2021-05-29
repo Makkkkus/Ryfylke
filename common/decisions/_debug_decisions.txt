@@ -89,15 +89,15 @@ debug_decisions = {
 		fire_only_once = no
 		cost = 0
 
-		complete_effect = {
-			random_operative = {
-				harm_operative_leader = 1
-				operative_leader_event = {
-					id = lar_operative_event.4
-					set_from_from = URG
-				}
-			}
-		}
+		#complete_effect = {
+		#	random_operative = {
+		#		harm_operative_leader = 1
+		#		operative_leader_event = {
+		#			id = lar_operative_event.4
+		#			set_from_from = URG
+		#		}
+		#	}
+		#}
 
 		ai_will_do = {
 			base = 0
