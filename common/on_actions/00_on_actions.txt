@@ -112,18 +112,6 @@ on_actions = {
 				set_country_flag = achievement_has_nuked_california
 			}
 			
-			news_event = { id = nuke_dropped.2 days = 1}
-			news_event = { id = nuke_dropped.3 days = 1}
-			news_event = { id = nuke_dropped.4 days = 1}
-			news_event = { id = nuke_dropped.5 days = 1}
-			news_event = { id = nuke_dropped.6 days = 1}
-			news_event = { id = nuke_dropped.7 days = 1}
-			news_event = { id = nuke_dropped.8 days = 1}
-			news_event = { id = nuke_dropped.9 days = 1}
-			news_event = { id = nuke_dropped.10 days = 1}
-			news_event = { id = nuke_dropped.11 days = 1}
-			news_event = { id = nuke_dropped.12 days = 1}
-			news_event = { id = nuke_dropped.13 days = 1}
 			news_event = { id = nuke_dropped.0 }
 		}
 	}
@@ -136,15 +124,6 @@ on_actions = {
 	#on_five_year_pulse = {
 	#
 	#}
-
-	on_border_war_lost = {
-		effect = {
-			owner = {
-				country_event = { id = china.14 }
-				country_event = { id = china.16 }
-			}
-		}
-	}
 	
 	on_leave_faction = {
 		effect = {
@@ -224,8 +203,7 @@ on_actions = {
 	}
 
 	on_government_change = {
-		effect = {			
-			#Make sure Soviet can always create factions
+		effect = {
 			if = {
 				limit = { has_government = democratic }
 				if = {
@@ -255,12 +233,6 @@ on_actions = {
 					limit = { has_idea = communism_defeated }
 					remove_ideas = communism_defeated
 				}
-
-				#Remove anti_soviet_pact
-				if = {
-					limit = { has_idea = anti_soviet_pact }
-					remove_ideas = anti_soviet_pact
-				}
 			}
 			if = {
 				limit = { has_government = fascism }
@@ -281,19 +253,6 @@ on_actions = {
 					remove_ideas = anti_nazi_coup
 				}
 			}
-			#Replace the following two with events for SOV if they are not communist.
-			#if = {
-			#	limit = { 
-			#		OR = {
-			#			has_idea = trotskyite_plot 
-			#			has_idea = trotskyite_plot_purged
-			#		}
-			#		NOT = {
-			#			has_civil_war = yes
-			#		}
-			#	}
-			#	country_event = { id = soviet.54 }
-			#}
 		}
 	}
 
