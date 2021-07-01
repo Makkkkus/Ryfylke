@@ -1,2 +1,3 @@
 STA = "countries/Stavanger.txt"
-SAN = "Countries/Sandnes.txt"
+SAN = "countries/Sandnes.txt"
+SOL = "countries/Sola.txt"

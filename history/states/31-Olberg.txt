@@ -6,10 +6,6 @@ state={
 		431 480 481 482 483 484 1363 1365 1376 1378 1392 1394 1410 1412 1416 1428 1429 1438 1446 1447 1455 
 	}
 
-	history = {
-		owner = SAN
-	}
-
 	state_category = rural
 	manpower=500
 	buildings_max_level_factor=1.000

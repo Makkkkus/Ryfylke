@@ -9,3 +9,8 @@ SAN = {
 	color = rgb { 111 20 20 }
 	color_ui = rgb { 144 92 92 }
 }
+
+SOL = {
+	color = rgb { 15 200 50 }
+	color_ui = rgb { 144 92 92 }
+}

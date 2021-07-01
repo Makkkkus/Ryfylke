@@ -3,9 +3,8 @@ state={
 	id=18
 	name="STATE_18"
 
-	history={
-		owner = STA
-
+	history = {
+		owner = SOL
 	}
 
 	provinces={

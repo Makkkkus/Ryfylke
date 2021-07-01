@@ -5,10 +5,6 @@ state={
 		750 751 752 
 	}
 
-	history = {
-		owner = SAN
-	}
-
 	state_category = tiny_island
 	manpower=100
 	buildings_max_level_factor=1.000
