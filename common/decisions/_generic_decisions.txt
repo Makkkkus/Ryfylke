@@ -433,7 +433,7 @@ war_measures = {
                     has_war_support > 0.79
                 }
                 AND = {
-                    has_government = communism
+                    has_government = radical_socialism
                     has_war_support > 0.79
                 }
                 AND = {

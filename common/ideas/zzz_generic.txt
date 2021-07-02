@@ -146,7 +146,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = radical_socialism
 			}
 
 			removal_cost = -1
@@ -155,7 +155,7 @@ ideas = {
 			
 			modifier = {
 				#justify_war_goal_time = -0.25
-				communism_drift = 0.1
+				radical_socialism_drift = 0.1
 			}
 		}
 
@@ -187,16 +187,16 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = radical_socialism
 			}
 
 			removal_cost = -1
 
-			picture = generic_communism_drift_bonus
+			picture = generic_radical_socialism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
-				communism_acceptance = 85
+				radical_socialism_drift = 0.1
+				radical_socialism_acceptance = 85
 			}
 		}
 		democratic_influence = {
@@ -246,15 +246,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = radical_socialism
 			}
 
 			removal_cost = -1
 
-			picture = generic_communism_drift_bonus
+			picture = generic_radical_socialism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
+				radical_socialism_drift = 0.1
 			}
 		}
 		# from decision
@@ -266,15 +266,15 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = radical_socialism
 			}
 
 			removal_cost = -1
 
-			picture = generic_communism_drift_bonus
+			picture = generic_radical_socialism_drift_bonus
 			
 			modifier = {
-				communism_drift = 0.1
+				radical_socialism_drift = 0.1
 				research_speed_factor = 0.035
 			}
 		}
@@ -366,7 +366,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = radical_socialism
 			}
 		
 			removal_cost = -1
@@ -428,7 +428,7 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
+					has_government = radical_socialism
 					has_government = fascism
 				}
 			}
@@ -451,7 +451,7 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
+					has_government = radical_socialism
 					has_government = fascism
 				}
 			}
@@ -474,7 +474,7 @@ ideas = {
 
 			allowed_civil_war = {
 				OR = {
-					has_government = communism
+					has_government = radical_socialism
 					has_government = fascism
 				}
 			}
@@ -522,7 +522,7 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = communism
+				has_government = radical_socialism
 			}
 			
 			removal_cost = -1
@@ -658,7 +658,7 @@ ideas = {
 			}			
 		}
 
-		communism_banned = {
+		radical_socialism_banned = {
 			picture = anti_soviet_pact
 			allowed = {
 				always = no
@@ -666,12 +666,12 @@ ideas = {
 
 			allowed_civil_war = {
 				NOT = {
-					has_government = communism
+					has_government = radical_socialism
 				}
 			}
 
 			modifier = {
-				communism_drift = -0.05
+				radical_socialism_drift = -0.05
 			}
 		}
 
@@ -1087,7 +1087,7 @@ ideas = {
 	
 			do_effect = {
 				NOT = {
-					has_government = communism
+					has_government = radical_socialism
 				}
 			}
 	

@@ -141,18 +141,18 @@ crisis = {
 					has_idea = draft_dodging_3
 					has_stability < 0.21
 					NOT = {
-						has_government = communism
+						has_government = radical_socialism
 					}
 				}
 				start_civil_war = {
-					ideology = communism
+					ideology = radical_socialism
 				}
 			}
 			if = {
 				limit = {
 					has_idea = draft_dodging_3
 					has_stability < 0.21
-					has_government = communism
+					has_government = radical_socialism
 					
 				}
 				start_civil_war = {
@@ -164,16 +164,16 @@ crisis = {
 					has_idea = draft_dodging_3
 					has_stability < 0.41
 					NOT = {
-						has_government = communism
+						has_government = radical_socialism
 					}
 				}
-				add_popularity = { ideology = communism popularity = 0.1}
+				add_popularity = { ideology = radical_socialism popularity = 0.1}
 			}
 			if = {
 				limit = {
 					has_idea = draft_dodging_3
 					has_stability < 0.41
-					has_government = communism
+					has_government = radical_socialism
 					
 				}
 				add_popularity = { ideology = democratic popularity = 0.1}
@@ -253,18 +253,18 @@ crisis = {
 					has_idea = strikes_3
 					has_stability < 0.21
 					NOT = {
-						has_government = communism
+						has_government = radical_socialism
 					}
 				}
 				start_civil_war = {
-					ideology = communism
+					ideology = radical_socialism
 				}
 			}
 			if = {
 				limit = {
 					has_idea = strikes_3
 					has_stability < 0.21
-					has_government = communism
+					has_government = radical_socialism
 					
 				}
 				start_civil_war = {
@@ -276,16 +276,16 @@ crisis = {
 					has_idea = strikes_3
 					has_stability < 0.41
 					NOT = {
-						has_government = communism
+						has_government = radical_socialism
 					}
 				}
-				add_popularity = { ideology = communism popularity = 0.1}
+				add_popularity = { ideology = radical_socialism popularity = 0.1}
 			}
 			if = {
 				limit = {
 					has_idea = strikes_3
 					has_stability < 0.41
-					has_government = communism
+					has_government = radical_socialism
 					
 				}
 				add_popularity = { ideology = democratic popularity = 0.1}
@@ -409,18 +409,18 @@ crisis = {
 					has_idea = mutiny_3
 					has_stability < 0.21
 					NOT = {
-						has_government = communism
+						has_government = radical_socialism
 					}
 				}
 				start_civil_war = {
-					ideology = communism
+					ideology = radical_socialism
 				}
 			}
 			if = {
 				limit = {
 					has_idea = mutiny_3
 					has_stability < 0.21
-					has_government = communism
+					has_government = radical_socialism
 					
 				}
 				start_civil_war = {
@@ -432,16 +432,16 @@ crisis = {
 					has_idea = mutiny_3
 					has_stability < 0.41
 					NOT = {
-						has_government = communism
+						has_government = radical_socialism
 					}
 				}
-				add_popularity = { ideology = communism popularity = 0.1}
+				add_popularity = { ideology = radical_socialism popularity = 0.1}
 			}
 			if = {
 				limit = {
 					has_idea = mutiny_3
 					has_stability < 0.41
-					has_government = communism
+					has_government = radical_socialism
 					
 				}
 				add_popularity = { ideology = democratic popularity = 0.1}
@@ -587,18 +587,18 @@ demobilization = {
 					has_idea = strikes_3
 					has_stability < 0.21
 					NOT = {
-						has_government = communism
+						has_government = radical_socialism
 					}
 				}
 				start_civil_war = {
-					ideology = communism
+					ideology = radical_socialism
 				}
 			}
 			if = {
 				limit = {
 					has_idea = strikes_3
 					has_stability < 0.21
-					has_government = communism
+					has_government = radical_socialism
 					
 				}
 				start_civil_war = {
@@ -610,16 +610,16 @@ demobilization = {
 					has_idea = strikes_3
 					has_stability < 0.41
 					NOT = {
-						has_government = communism
+						has_government = radical_socialism
 					}
 				}
-				add_popularity = { ideology = communism popularity = 0.1}
+				add_popularity = { ideology = radical_socialism popularity = 0.1}
 			}
 			if = {
 				limit = {
 					has_idea = strikes_3
 					has_stability < 0.41
-					has_government = communism
+					has_government = radical_socialism
 					
 				}
 				add_popularity = { ideology = democratic popularity = 0.1}
@@ -734,7 +734,7 @@ demobilization = {
 		timeout_effect = {
 			if = {
 				limit = {
-					has_government = communism
+					has_government = radical_socialism
 					has_stability < 0.2
 				}
 				start_civil_war = {
@@ -743,11 +743,11 @@ demobilization = {
 			}
 			if = {
 				limit = {
-					NOT = { has_government = communism }
+					NOT = { has_government = radical_socialism }
 					has_stability < 0.3
 				}
 				start_civil_war = {
-					ideology = communism
+					ideology = radical_socialism
 				}
 			}
 			if = {
@@ -758,15 +758,15 @@ demobilization = {
 			}
 			if = {
 				limit = {
-					has_government = communism
+					has_government = radical_socialism
 				}
 				add_popularity = { ideology = democratic popularity = 0.1 }
 			}
 			if = {
 				limit = {
-					NOT = { has_government = communism }
+					NOT = { has_government = radical_socialism }
 				}
-				add_popularity = { ideology = communism popularity = 0.1 }
+				add_popularity = { ideology = radical_socialism popularity = 0.1 }
 			}
 		}
 	}

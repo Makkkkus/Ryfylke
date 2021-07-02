@@ -116,15 +116,15 @@ democratic_on_the_rise = {
 	}
 }
 
-communism_on_the_rise = {
-	icon = generic_communism
+radical_socialism_on_the_rise = {
+	icon = generic_radical_socialism
 
 	allowed = {
 		always = yes
 	}
 	
 	visible = {
-		NOT = { has_government = communism }
+		NOT = { has_government = radical_socialism }
 		has_idea_with_trait = communist_revolutionary
 	}
 }

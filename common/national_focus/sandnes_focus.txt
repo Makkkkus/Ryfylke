@@ -1,0 +1,53 @@
+search_filter_prios = {
+	FOCUS_FILTER_POLITICAL = 1010
+	FOCUS_FILTER_RESEARCH = 522
+	FOCUS_FILTER_INDUSTRY = 509
+}
+
+focus_tree = {
+	id = sandnes_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			tag = SAN
+		}
+	}
+
+	continuous_focus_position = { x = 250 y = 1000 }
+
+	default = no
+	reset_on_civilwar = no
+
+	initial_show_position = {
+		focus = SAN_focus_emergency_government
+	}
+
+	focus = {
+		id = SAN_focus_aftermath
+
+		x = 10
+		y = 1
+
+		cost = 10
+		#icon = GFX_focus_generic_the_giant_wakes
+
+		completion_reward = { }
+	}
+
+	focus = {
+		id = SAN_focus_emergency_government
+		prerequisite = { focus = SAN_focus_aftermath }
+
+		relative_position_id = SAN_focus_aftermath
+		x = 0
+		y = 1
+
+		cost = 10
+		#icon = GFX_focus_generic_the_giant_wakes
+
+		completion_reward = {}
+	}
+}

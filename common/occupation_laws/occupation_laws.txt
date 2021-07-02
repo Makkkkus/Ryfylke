@@ -217,7 +217,7 @@ liberate_workers_occupation = {
 	sound_effect = "Martial_Law_Interface_Liberate_Workers_Occupation_Unique_COM"
 	
 	visible = {
-		has_government = communism
+		has_government = radical_socialism
 	}
 	
 	state_modifier = {

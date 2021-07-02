@@ -98,7 +98,7 @@ news_event = {
 	}
 	desc = {
 		text = news.159.d_04
-		trigger = { FROM = { has_government = communism } }
+		trigger = { FROM = { has_government = radical_socialism } }
 	}
 
 	picture = GFX_news_event_009

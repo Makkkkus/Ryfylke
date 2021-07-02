@@ -19,7 +19,7 @@ default = {
 	}
 	
 	political = {
-		communism = {
+		radical_socialism = {
 			male = { 
 				"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 			}
@@ -80,7 +80,7 @@ default = {
 #	}
 #
 #	political = {
-#		communism = {
+#		radical_socialism = {
 #				male = { 
 #					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 #			}
@@ -125,7 +125,7 @@ default = {
 #	}
 #	
 #	political = {
-#		communism = {
+#		radical_socialism = {
 #				male = { 
 #					"gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 #			}
@@ -171,7 +171,7 @@ default = {
 #	}
 #	
 #	political = {
-#		communism = {
+#		radical_socialism = {
 #				male = { 
 #					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 #			}
@@ -216,7 +216,7 @@ default = {
 #	}
 #	
 #	political = {
-#		communism = {
+#		radical_socialism = {
 #				male = { 
 #					"gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"	
 #					"gfx/leaders/SAF/Portrait_South_Africa_Political_Leader_Generic_2.dds"
@@ -272,7 +272,7 @@ default = {
 #	}
 #
 #	political = {
-#		communism = {
+#		radical_socialism = {
 #				male = { 
 #					"gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 #			}
@@ -315,7 +315,7 @@ default = {
 #	}
 #	
 #	political = {
-#		communism = {
+#		radical_socialism = {
 #				male = { 
 #					"gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
 #			}

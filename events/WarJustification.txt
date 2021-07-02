@@ -67,7 +67,7 @@ country_event = {
 	
 	trigger = {
 		has_government = fascism
-		FROM = { has_government = communism }
+		FROM = { has_government = radical_socialism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 
@@ -118,7 +118,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = communism
+		has_government = radical_socialism
 		FROM = { has_government = neutrality }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
@@ -144,7 +144,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = communism
+		has_government = radical_socialism
 		FROM = { has_government = democratic }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
@@ -170,8 +170,8 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = communism
-		FROM = { has_government = communism }
+		has_government = radical_socialism
+		FROM = { has_government = radical_socialism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -196,7 +196,7 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
-		has_government = communism
+		has_government = radical_socialism
 		FROM = { has_government = fascism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
@@ -275,7 +275,7 @@ country_event = {
 
 	trigger = {
 		has_government = democratic
-		FROM = { has_government = communism }
+		FROM = { has_government = radical_socialism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -379,7 +379,7 @@ country_event = {
 
 	trigger = {
 		has_government = neutrality
-		FROM = { has_government = communism }
+		FROM = { has_government = radical_socialism }
 		NOT = { has_country_flag = war_justification_last_event_political }
 	}
 	
@@ -844,11 +844,11 @@ country_event = {
 
 	option = {
 		name = war_justification.301.b
-		trigger = { has_government = communism }
+		trigger = { has_government = radical_socialism }
 		add_political_power = -30
 		add_war_support = -0.05
 		add_popularity = {
-			ideology = communism
+			ideology = radical_socialism
 			popularity = -0.05
 		}
 	}

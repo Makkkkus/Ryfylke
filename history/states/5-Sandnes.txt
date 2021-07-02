@@ -6,6 +6,11 @@ state={
 	history={
 		owner = SAN
 
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 4
+		}
+
 	}
 
 	provinces={

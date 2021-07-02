@@ -1,0 +1,19 @@
+state={
+	id=148
+	name="STATE_148"
+
+	history = {
+		owner = STA
+
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 5
+		}
+	}
+
+	provinces={
+		325 358 359 360 869 871 880 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

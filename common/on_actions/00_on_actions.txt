@@ -220,7 +220,7 @@ on_actions = {
 				}
 			}
 			if = {
-				limit = { has_government = communism }
+				limit = { has_government = radical_socialism }
 				if = {
 					limit = { has_idea = communist_partisans_recruiting }
 					remove_ideas = communist_partisans_recruiting
@@ -230,8 +230,8 @@ on_actions = {
 					remove_ideas = communist_revolutionaries
 				}
 				if = {
-					limit = { has_idea = communism_defeated }
-					remove_ideas = communism_defeated
+					limit = { has_idea = radical_socialism_defeated }
+					remove_ideas = radical_socialism_defeated
 				}
 			}
 			if = {

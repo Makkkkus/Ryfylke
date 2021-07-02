@@ -26,11 +26,11 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_communism_drift_bonus
+			picture = generic_radical_socialism_drift_bonus
 			
 			modifier = {
 				conscription = -0.002
-				communism_drift = 0.05
+				radical_socialism_drift = 0.05
 			}
 	
 			ai_will_do = {
@@ -79,7 +79,7 @@ ideas = {
 				always = no # Triggered via event
 			}
 
-			picture = generic_communism_drift_bonus
+			picture = generic_radical_socialism_drift_bonus
 			
 			modifier = {
 				stability_factor = -0.1
@@ -116,7 +116,7 @@ ideas = {
 			}
 		}
 
-		communism_defeated = {
+		radical_socialism_defeated = {
 			removal_cost = -1
 			
 			allowed = {
@@ -166,7 +166,7 @@ ideas = {
 
 		anti_soviet_pact_refused_call = {
 
-			picture = generic_communism_drift_bonus
+			picture = generic_radical_socialism_drift_bonus
 			
 			removal_cost = -1 # Or make removable, with high cost?
 			
@@ -180,7 +180,7 @@ ideas = {
 
 			modifier = {
 				stability_factor = -0.1
-				communism_drift = 0.05
+				radical_socialism_drift = 0.05
 			}
 		}
 

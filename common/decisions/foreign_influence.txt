@@ -63,7 +63,7 @@ foreign_influence = {
 				is_puppet_of = ROOT
 			}
 			FROM = {
-				communism < 0.9
+				radical_socialism < 0.9
 			}
 			OR = {
 				political_power_daily > 0.5
@@ -72,10 +72,10 @@ foreign_influence = {
 		}
 
 		visible = {
-			has_government = communism
+			has_government = radical_socialism
 			FROM = {
 				is_puppet_of = ROOT
-				communism < 0.99
+				radical_socialism < 0.99
 			}
 		}
 
@@ -265,18 +265,18 @@ foreign_influence = {
 				is_puppet_of = ROOT
 			}
 			FROM = {
-				communism > 0.6
+				radical_socialism > 0.6
 			}
 			FROM = {
-				NOT = { has_government = communism }
+				NOT = { has_government = radical_socialism }
 			}
 		}
 
 		visible = {
-			has_government = communism
+			has_government = radical_socialism
 			FROM = {
 				is_puppet_of = ROOT
-				NOT = { has_government = communism }
+				NOT = { has_government = radical_socialism }
 			}
 		}
 
@@ -298,7 +298,7 @@ foreign_influence = {
 			}
 			FROM = {
 				set_politics = {
-					ruling_party = communism
+					ruling_party = radical_socialism
 					elections_allowed = no
 				}
 			}

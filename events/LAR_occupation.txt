@@ -129,7 +129,7 @@ country_event = {
 					set_temp_variable = { allowed_party_neutrality = 1 }
 					set_temp_variable = { allowed_party_democratic = 1 }
 					set_temp_variable = { allowed_party_fascism = 1 }
-					set_temp_variable = { allowed_party_communism = 1 }
+					set_temp_variable = { allowed_party_radical_socialism = 1 }
 					
 					# do not change ideology of occupier country
 					var:occupier_country = {
@@ -160,8 +160,8 @@ country_event = {
 										check_variable = { allowed_party_fascism = 0 }
 									}
 									AND = {
-										has_government = communism
-										check_variable = { allowed_party_communism = 0 }
+										has_government = radical_socialism
+										check_variable = { allowed_party_radical_socialism = 0 }
 									}
 									AND = { 
 										has_government = neutrality
@@ -183,11 +183,11 @@ country_event = {
 									}
 									set_politics = { ruling_party = fascism elections_allowed = no }
 								}
-								allowed_party_communism = {
+								allowed_party_radical_socialism = {
 									set_popularities = {
-										communism = 100
+										radical_socialism = 100
 									}
-									set_politics = { ruling_party = communism elections_allowed = no }
+									set_politics = { ruling_party = radical_socialism elections_allowed = no }
 								}
 								allowed_party_neutrality = {
 									set_popularities = {

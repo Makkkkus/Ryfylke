@@ -46,16 +46,17 @@ if = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = liberal_socialism
 	last_election = "1933.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 100
+	democratic = 50
 	fascism = 0
-	communism = 0
+	radical_socialism = 0
+	liberal_socialism = 50
 }
 
 create_country_leader = {
@@ -63,5 +64,5 @@ create_country_leader = {
 	desc = "POLITICS_MISTER_MAN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = social_democracy
 }

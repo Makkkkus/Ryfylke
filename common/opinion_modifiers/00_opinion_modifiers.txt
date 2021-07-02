@@ -183,10 +183,10 @@ opinion_modifiers = {
 	democratic_leanings_bad = {
 		value = -30
 	}
-	communism_leanings_good = {
+	radical_socialism_leanings_good = {
 		value = 15
 	}
-	communism_leanings_bad = {
+	radical_socialism_leanings_bad = {
 		value = -30
 	}
 	fascism_leanings_good = {

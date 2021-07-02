@@ -61,7 +61,7 @@ check_has_focus_tree_to_switch_to_democratic = {
 	always = yes
 }
 
-check_has_focus_tree_to_switch_to_communism = {
+check_has_focus_tree_to_switch_to_radical_socialism = {
 	always = yes
 }
 

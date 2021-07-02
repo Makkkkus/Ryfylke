@@ -105,7 +105,7 @@ MTG_naval_treaties = {
 			has_naval_treaty_trigger = yes
 			OR = {
 				has_government = fascism
-				has_government = communism
+				has_government = radical_socialism
 			}
 		}
 	
@@ -189,7 +189,7 @@ MTG_naval_treaties = {
 			}
 			OR = {
 				has_government = fascism
-				has_government = communism
+				has_government = radical_socialism
 			}
 		}
 	

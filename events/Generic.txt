@@ -69,9 +69,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_government = radical_socialism
 				}
-				has_government = communism
+				has_government = radical_socialism
 			}
 		}
 	}
@@ -93,9 +93,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_government = radical_socialism
 					}
-					has_government = communism
+					has_government = radical_socialism
 				}
 			}
 		}
@@ -160,9 +160,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_government = radical_socialism
 				}
-				has_government = communism
+				has_government = radical_socialism
 			}
 		}
 		ai_chance = {
@@ -194,9 +194,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_government = radical_socialism
 					}
-					has_government = communism
+					has_government = radical_socialism
 				}
 			}
 		}
@@ -356,9 +356,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_government = radical_socialism
 				}
-				has_government = communism
+				has_government = radical_socialism
 			}
 		}
 	}
@@ -380,9 +380,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_government = radical_socialism
 					}
-					has_government = communism
+					has_government = radical_socialism
 				}
 			}
 		}
@@ -426,9 +426,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_government = radical_socialism
 				}
-				has_government = communism
+				has_government = radical_socialism
 			}
 		}
 	}
@@ -450,9 +450,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_government = radical_socialism
 					}
-					has_government = communism
+					has_government = radical_socialism
 				}
 			}
 		}
@@ -493,9 +493,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_government = radical_socialism
 				}
-				has_government = communism
+				has_government = radical_socialism
 			}
 		}
 	}
@@ -517,9 +517,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_government = radical_socialism
 					}
-					has_government = communism
+					has_government = radical_socialism
 				}
 			}
 		}
@@ -599,9 +599,9 @@ country_event = {
 			is_in_faction = no
 			AND = {
 				FROM = {
-					has_government = communism
+					has_government = radical_socialism
 				}
-				has_government = communism
+				has_government = radical_socialism
 			}
 		}
 		ai_chance = {
@@ -641,9 +641,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_government = radical_socialism
 					}
-					has_government = communism
+					has_government = radical_socialism
 				}
 			}
 		}
@@ -806,9 +806,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_government = radical_socialism
 				}
-				has_government = communism
+				has_government = radical_socialism
 			}
 		}
 	}
@@ -830,9 +830,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_government = radical_socialism
 					}
-					has_government = communism
+					has_government = radical_socialism
 				}
 			}
 		}
@@ -876,9 +876,9 @@ country_event = {
 		trigger = {
 			AND = {
 				FROM = {
-					has_government = communism
+					has_government = radical_socialism
 				}
-				has_government = communism
+				has_government = radical_socialism
 			}
 		}
 	}
@@ -900,9 +900,9 @@ country_event = {
 				}
 				AND = {
 					FROM = {
-						has_government = communism
+						has_government = radical_socialism
 					}
-					has_government = communism
+					has_government = radical_socialism
 				}
 			}
 		}
@@ -1260,44 +1260,44 @@ country_event = {
 		}
 		if = {
 			limit = {
-				FROM = { has_government = communism }
-				communism > 0.1
-				NOT = { communism > 0.2 }
+				FROM = { has_government = radical_socialism }
+				radical_socialism > 0.1
+				NOT = { radical_socialism > 0.2 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
-			custom_effect_tooltip = attache_communism_tt
+			custom_effect_tooltip = attache_radical_socialism_tt
 			add_stability = -0.025
 		}
 		if = {
 			limit = {
-				FROM = { has_government = communism }
-				NOT = { has_government = communism }
-				communism > 0.2
-				NOT = { communism > 0.3 }
+				FROM = { has_government = radical_socialism }
+				NOT = { has_government = radical_socialism }
+				radical_socialism > 0.2
+				NOT = { radical_socialism > 0.3 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
-			custom_effect_tooltip = attache_communism_tt
+			custom_effect_tooltip = attache_radical_socialism_tt
 			add_stability = -0.05
 		}
 		if = {
 			limit = {
-				FROM = { has_government = communism }
-				NOT = { has_government = communism }
-				communism > 0.3
-				NOT = { communism > 0.4 }
+				FROM = { has_government = radical_socialism }
+				NOT = { has_government = radical_socialism }
+				radical_socialism > 0.3
+				NOT = { radical_socialism > 0.4 }
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
-			custom_effect_tooltip = attache_communism_tt
+			custom_effect_tooltip = attache_radical_socialism_tt
 			add_stability = -0.075
 		}
 		if = {
 			limit = {
-				FROM = { has_government = communism }
-				NOT = { has_government = communism }
-				communism > 0.4
+				FROM = { has_government = radical_socialism }
+				NOT = { has_government = radical_socialism }
+				radical_socialism > 0.4
 				strength_ratio = { tag = FROM ratio < 1.2 }
 			}
-			custom_effect_tooltip = attache_communism_tt
+			custom_effect_tooltip = attache_radical_socialism_tt
 			add_stability = -0.1
 		}
 		if = {
