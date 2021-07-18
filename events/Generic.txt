@@ -1,8 +1,4 @@
-﻿###########################
-# turkey Events
-###########################
-
-add_namespace = generic
+﻿add_namespace = generic
 
 # President dies
 country_event = {

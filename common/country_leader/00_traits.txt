@@ -2936,7 +2936,7 @@ leader_traits = {
 			tac_bomber_equipment = {
 				reliability = 0.2
 			}
-			scout_plane_equipment = {
+			scout_helicopter_equipment = {
 				reliability = 0.2
 			}
 		}

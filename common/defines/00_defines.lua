@@ -8,7 +8,7 @@ NGame = {
 	CHECKSUM_SALT = "zwOdv5d9wm9uDSOT",				-- Data to modify generated checksum when game binaries have changed but not any content files.
 	LAG_DAYS_FOR_LOWER_SPEED = 10,					-- Days of client lag for decrease of gamespeed
 	LAG_DAYS_FOR_PAUSE = 25,						-- Days of client lag for pause of gamespeed.
-	GAME_SPEED_SECONDS = { 2.0, 0.5, 0.2, 0.1, 0.0 }, -- game speeds for each level. Must be 5 entries with last one 0 for unbound
+	GAME_SPEED_SECONDS = { 2.0, 0.5, 0.2, 0.1, 0.01 }, -- game speeds for each level. Must be 5 entries with last one 0 for unbound
 	MAJOR_PARTICIPANTS_FOR_MAJOR_WAR = 3,			-- Minimum number of major countries involved in a war to consider it major enough to not end the game even though the enddate has been reached.
 	COMBAT_LOG_MAX_MONTHS = 12,
 	MESSAGE_TIMEOUT_DAYS = 60,						-- Useful if running the handsoff game. The popup messages that doesn't require the player respond will automatically hide after some timeout.	
@@ -19,7 +19,7 @@ NGame = {
 	FUEL_RESOURCE = "oil",							-- resource that will give country fuel
 	MAX_EFFECT_ITERATION = 1000,					-- maximum allowed iteration for loop effects
 	MAX_SCRIPTED_LOC_RECURSION = 30,				-- max recursion for scripted localizations
-	HANDS_OFF_START_TAG = "SAN",					-- tag for player country for -hands_off runs. use an existing tag that is less likely to affect the game
+	HANDS_OFF_START_TAG = "REN",					-- tag for player country for -hands_off runs. use an existing tag that is less likely to affect the game
 },
 
 NDiplomacy = {
@@ -165,7 +165,7 @@ NDiplomacy = {
 },
 
 NCountry = {
-	EVENT_PROCESS_OFFSET = 20,						-- Events are checked every X day per country or state (1 is ideal, but CPU heavy)
+	EVENT_PROCESS_OFFSET = 1,						-- Events are checked every X day per country or state (1 is ideal, but CPU heavy) -- TODO: Change this if it lags (20)
 	BASE_RESEARCH_SLOTS = 2,						-- Base number of research slots per country.
 	VP_TO_SUPPLY_BASE = 1,							-- Bonus to supply from a VP, no matter the level
 	VP_TO_SUPPLY_BONUS_CONVERSION = 0.1,			-- Bonus to supply local supplies from Victory Points, multiplied by this aspect and rounded to closest integer

@@ -1,0 +1,68 @@
+capital = 62
+
+set_research_slots = 2
+set_convoys = 5
+set_stability = 0.7
+set_war_support = 0.5
+
+add_ideas = {
+	limited_conscription
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	tech_support = 1		
+	tech_engineers = 1
+	#early_fighter = 1
+	early_bomber = 1
+	tech_recon = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		basic_torpedo = 1
+		coastal_defense_ships = 1
+	}
+
+	else = {
+		set_technology = {
+			early_destroyer = 1
+			early_submarine = 1
+			early_heavy_cruiser = 1
+		}
+	}
+}
+
+set_politics = {
+	ruling_party = liberal_socialism
+	last_election = "1933.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 50
+	fascism = 0
+	radical_socialism = 0
+	liberal_socialism = 50
+}
+
+create_country_leader = {
+	name = "Mister Man"
+	desc = "POLITICS_MISTER_MAN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = social_democracy
+}

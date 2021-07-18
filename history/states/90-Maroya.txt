@@ -3,10 +3,22 @@ state={
 	id=90
 	name="STATE_90"
 
+	history = {
+		owner = STA
+
+		buildings = {
+			infrastructure = 2
+
+			532 = {
+				naval_base = 1
+			}
+		}
+	}
+
 	provinces={
 		532 
 	}
-	manpower=2000
+	manpower=4
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

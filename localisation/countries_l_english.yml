@@ -1,12 +1,32 @@
 ﻿l_english:
  STA:0 "Stavanger"
- STA_DEF:0 "Stavanger"
+ STA_DEF:0 "The Independent Commune of Stavanger"
  STA_ADJ:0 "Siddis"
 
  SAN:0 "Sandnes"
- SAN_DEF:0 "Sandnes"
+ SAN_DEF:0 "The Republic of Sandnes"
  SAN_ADJ:0 "Sandnesgauk"
 
  SOL:0 "Sola"
- SOL_DEF:0 "Sola"
+ SOL_DEF:0 "The Republic of Sola"
  SOL_ADJ:0 "Solabu"
+
+ SVI:0 "Sviland"
+ SVI_DEF:0 "The Republic of Sviland"
+ SVI_ADJ:0 "Svilandbu"
+
+ REN:0 "Rennesøy"
+ REN_DEF:0 "The Republic of Rennesøy"
+ REN_ADJ:0 "Rennesøybu"
+
+ KLP:0 "Klepp"
+ KLP_DEF:0 "The Republic of Klepp"
+ KLP_ADJ:0 "Kleppbu"
+
+ BRY:0 "Bryne"
+ BRY_DEF:0 "The Republic of Bryne"
+ BRY_ADJ:0 "Brynebu"
+
+ GJE:0 "Gjesdal"
+ GJE_DEF:0 "The Republic of Gjesdal"
+ GJE_ADJ:0 "Gjesdalbu"

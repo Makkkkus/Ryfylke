@@ -1,0 +1,19 @@
+state={
+	id=149
+	name="STATE_149"
+
+	history = {
+		owner = STA
+
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	provinces={
+		341 342 343 344 849 850 859 861 2327 2328 2329 
+	}
+	manpower=500
+	buildings_max_level_factor=1.000
+	state_category = town
+}

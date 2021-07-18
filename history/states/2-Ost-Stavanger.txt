@@ -6,6 +6,7 @@ state={
 	history={
 		owner = STA
 		buildings = {
+			infrastructure = 4
 			industrial_complex = 1
 
 		}
@@ -13,7 +14,7 @@ state={
 	}
 
 	provinces={
-		341 342 343 361 362 363 364 849 850 859 861 862 863 874 875 878 885 886 887 891 892 
+		361 362 363 364 862 863 874 875 878 885 886 887 891 892 2312 2330 2332 2333 2334 
 	}
 	manpower=25000
 	buildings_max_level_factor=1.000

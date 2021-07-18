@@ -6,7 +6,11 @@ state={
 	}
 
 	history = {
-		owner = SAN
+		owner = SVI
+
+		buildings = {
+			infrastructure = 2
+		}
 	}
 
 	state_category = rural

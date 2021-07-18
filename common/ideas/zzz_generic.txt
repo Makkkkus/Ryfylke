@@ -39,10 +39,10 @@ ideas = {
 					instant = yes
 					build_cost_ic = -0.10
 				}
-				jet_fighter_equipment = {
-					instant = yes
-					build_cost_ic = -0.10
-				}
+				#jet_fighter_equipment = {
+				#	instant = yes
+				#	build_cost_ic = -0.10
+				#}
 				cv_CAS_equipment = {
 					instant = yes
 					build_cost_ic = -0.10
@@ -91,7 +91,7 @@ ideas = {
 					instant = yes
 					build_cost_ic = -0.10
 				}
-				scout_plane_equipment = {
+				scout_helicopter_equipment = {
 					instant = yes
 					build_cost_ic = -0.10	
 				}
@@ -1082,12 +1082,12 @@ ideas = {
 			traits = { communist_revolutionary }
 	
 			on_add = {
-				#country_event = political.1
+				country_event = political.1
 			}
 	
 			do_effect = {
 				NOT = {
-					has_government = radical_socialism
+					#has_government = radical_socialism
 				}
 			}
 	
@@ -1098,7 +1098,8 @@ ideas = {
 			
 		generic_democratic_reformer = {
 			
-			allowed = {NOT = {
+			allowed = {
+				NOT = {
 					has_available_idea_with_traits = { idea = democratic_reformer limit = 1 }
 				}
 			}

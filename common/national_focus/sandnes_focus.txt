@@ -1,8 +1,4 @@
-search_filter_prios = {
-	FOCUS_FILTER_POLITICAL = 1010
-	FOCUS_FILTER_RESEARCH = 522
-	FOCUS_FILTER_INDUSTRY = 509
-}
+
 
 focus_tree = {
 	id = sandnes_focus
@@ -33,6 +29,7 @@ focus_tree = {
 
 		cost = 10
 		#icon = GFX_focus_generic_the_giant_wakes
+		search_filters = { FOCUS_FILTER_POLITICAL }
 
 		completion_reward = { }
 	}

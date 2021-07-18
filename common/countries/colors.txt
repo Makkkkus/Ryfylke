@@ -14,3 +14,28 @@ SOL = {
 	color = rgb { 15 200 50 }
 	color_ui = rgb { 144 92 92 }
 }
+
+SVI = {
+	color = rgb { 15 15 200 }
+	color_ui = rgb { 144 92 92 }
+}
+
+REN = {
+	color = rgb { 20 70 50 }
+	color_ui = rgb { 40 140 100 }
+}
+
+KLP = {
+	color = rgb { 150 15 170 }
+	color_ui = rgb { 200 30 240 }
+}
+
+BRY = {
+	color = rgb { 100 70 200 }
+	color_ui = rgb { 200 140 255 }
+}
+
+GJE = {
+	color = rgb { 200 255 50 }
+	color_ui = rgb { 255 255 100 }
+}

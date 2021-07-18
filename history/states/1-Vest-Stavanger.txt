@@ -5,9 +5,7 @@ state={
 
 	history={
 		owner = STA
-		victory_points = {
-			325 20 
-		}
+		
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 4
@@ -17,7 +15,7 @@ state={
 	}
 
 	provinces={
-		344 345 350 351 352 353 354 355 356 357 864 870 
+		345 350 351 352 353 354 355 356 357 864 870 2309 2311 2313 2318 
 	}
 	manpower=25000
 	buildings_max_level_factor=1.000

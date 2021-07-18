@@ -1,3 +1,8 @@
 STA = "countries/Stavanger.txt"
 SAN = "countries/Sandnes.txt"
 SOL = "countries/Sola.txt"
+SVI = "countries/Sviland.txt"
+REN = "countries/Rennesoy.txt"
+KLP = "countries/Klepp.txt"
+BRY = "countries/Bryne.txt"
+GJE = "countries/Gjesdal.txt"

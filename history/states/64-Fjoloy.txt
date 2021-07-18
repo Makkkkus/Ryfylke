@@ -1,6 +1,15 @@
 state={
 	id=64
 	name="STATE_64"
+
+	history = {
+		owner = REN
+
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
 	provinces={
 		705 
 	}

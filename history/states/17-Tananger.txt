@@ -5,6 +5,18 @@ state={
 
 	history = {
 		owner = SOL
+
+		buildings = {
+			infrastructure = 1
+		}
+
+		victory_points = {
+			505 20
+		}
+
+		victory_points = {
+			452 20
+		}
 	}
 
 	provinces={

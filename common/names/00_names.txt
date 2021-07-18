@@ -22,7 +22,7 @@ default = {
 	surnames = {
 		Munthe Sejersted Ræder Dahl Nordhaug Hamre Fleischer Eriksen Berg Hauge
 		Prytz Lund Nørregaard Vilberg Hauge Sunde Petersen Brandt Lie Wergeland Frisvold
-		Teige Carenwall Falck
+		Teige Falck Gjesdal Sandnes 
 	}
 
 	callsigns = { "Easy Kill" "The Lightning" "The Devil" "Grasshopper" "Handsome" "Moose" "Mouse" "Pebbles" "Sunshine" Demon}

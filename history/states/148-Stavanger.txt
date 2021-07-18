@@ -1,19 +1,25 @@
+
 state={
 	id=148
 	name="STATE_148"
 
-	history = {
+	history={
 		owner = STA
 
 		buildings = {
 			industrial_complex = 1
 			infrastructure = 5
 		}
+
+		victory_points = {
+			2321 30
+		}
 	}
 
 	provinces={
-		325 358 359 360 869 871 880 
+		325 358 359 360 869 871 880 2310 2314 2315 2316 2317 2319 2320 2321 2331 
 	}
-	manpower=0
+	manpower=1000
 	buildings_max_level_factor=1.000
+	state_category=city
 }

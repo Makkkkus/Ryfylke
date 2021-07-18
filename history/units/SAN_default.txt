@@ -1,0 +1,71 @@
+﻿division_template = {
+	name = "Binær Divisjon"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Dragonregiment"
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+
+
+units = {
+	######## LAND UNITS ########
+	#division = {
+	#	name = "Finnmark Brigaden"
+	#	location = 9116
+	#	division_template = "Binær Divisjon"
+	#	start_experience_factor = 0.2
+	#	start_equipment_factor = 0.3
+#
+	#}
+}
+
+air_wings = {
+	### Luftforsvaret -- Oslo
+	#110 = {
+	#	# Had a handful of Fokker C-Vd bombers in both bomber and recon role,
+	#	# plus Tiger Moth trainers used in various roles.
+	#	# This represents what was active in a combat role
+	#	tac_bomber_equipment_0 =  {
+	#		owner = "NOR"
+	#		amount = 18
+	#	}
+	#}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			#creator = "SAN"
+		}
+		requested_factories = 1
+		progress = 0.37
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			#creator = "SAN"
+		}
+		requested_factories = 1
+		progress = 0.54
+		efficiency = 100
+	}
+}
